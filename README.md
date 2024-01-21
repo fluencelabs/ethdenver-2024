@@ -55,6 +55,12 @@ This track tasks you to port the halo2 tooling to Fluence's [Marine Wasm runtime
 In this build track, you are asked to implement or port an exiting MPC TSS library of your choosing to the Fluence Marine Wasm runtime and to illustrate distributed key generation, key refresh and message signing with Aqua workflows over your Fluence Functions wrapping your (ported) MPC TSS Wasm library. Your implementation should be two party or better and 
 the implemented or ported MPC TSS library needs to be corrected for these [exploits](https://www.verichains.io/tsshock/).
 
+### Utilize EIP 4844 For Short-Term State Management -- 1 x USDC 5,000  ????
+
+[EIP 4844](https://www.eip4844.com/), aka proto-dank-sharding, provides a new data type, Blob, on Ethereum. Blobs are persisted beacon nodes and are pruned after approximately two weeks. Hence, EIP 4844 may provide Fluence Functions developers with a convenient, verifiable and cheap "intermediate" data durability layer to Fluence Functions suitable for retaining small state, such as stream pagination, or subnet data synchronization. Moreover, Ethereum core devs have made EIP 4844 available on [Goerli](https://www.theblock.co/post/273050/ethereum-dencun-goerli-proto-danksharding).
+
+Teams should implement at least a read-write EIP 4844 Blob solution for their Fluence Functions and demonstrate both operations in separate Aqua workflows. However, the most important aspect of this task is to manage the "discovery" of the Blob by your Fluence Functions without, duh, storing a Blob reference on another storage solution. That is, your solution should be able to "index" your Blob(s) against, say, your account address and your Functions.
+
 
 ## Submission Guidelines
 

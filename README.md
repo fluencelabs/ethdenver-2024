@@ -22,7 +22,7 @@ Be one of the first five (5) submitted solutions to integrate fRPC with your dAP
 
 ### Create And Deploy A Fluence Function -- 5 x USDC 1,000
 
-Fluence Functions is a decentralized, stateless compute services built on Wasm without developers having to provision or manage servers. Fluence Functions not only follow the serverless paradigm like AWS Lambda or Azure Functions but introduce decentralization a the compute as well as server level via DePin. In fact, Fluence capacity providers commit provable capacity from Tier 4 data centers.
+Fluence Functions is a decentralized, stateless compute service built on Wasm without developers having to provision or manage servers. Fluence Functions not only follow the serverless paradigm like AWS Lambda or Azure Functions but introduce decentralization a the compute as well as server level via DePin. In fact, Fluence capacity providers commit provable capacity from Tier 4 data centers.
 
 Create and deploy a Fluence Function of you choice to the Fluence testnet. Examine the function locally with Fluence's Marine REPL and run the function with Fluence's Aqua distributed workflow engine. Follow the submissions guides provided below and add a screenshot of the REPL output for your function.
 
@@ -32,7 +32,7 @@ Like all serverless compute solutions, Fluence Functions is inherently stateless
 
 At the very minimum, your Fluence Functions should have a read and write capability to the chosen storage solution and use different Aqua workflow scripts to demonstrate the read and write operation. 
 
-### Spread Your Wings With Fluence, ZK or MPC  -- 1 x USDC 3,500, 1 x USDC 1,500
+### Spread Your Wings With Fluence Functions, ZK or MPC  -- 1 x USDC 3,500, 1 x USDC 1,500
 
 Tackle either the MPC or ZKP track for fame and fortune!
 
@@ -52,12 +52,15 @@ This track tasks you to port the halo2 tooling to Fluence's [Marine Wasm runtime
 * Building a ZK web app with Halo2 and Wasm [part 1](https://medium.com/@yujiangtham/lets-dissect-a-zksnark-part-1-a82fc092f58a) and [part 2](https://medium.com/@yujiangtham/building-a-zero-knowledge-web-app-with-halo-2-and-wasm-part-2-379477444dc3)
 
 
+Follow the submissions guides provided below.
+
 ### Utilize EIP 4844 For Short-Term State Management -- 1 x USDC 3,500, 1 x USDC 1,500
 
-[EIP 4844](https://www.eip4844.com/), aka proto-dank-sharding, provides a new data type, Blob, on Ethereum. Blobs are persisted beacon nodes and are pruned after approximately two weeks. Hence, EIP 4844 may provide Fluence Functions developers with a convenient, verifiable and cheap "intermediate" data durability layer to Fluence Functions suitable for retaining small state, such as stream pagination, or subnet data synchronization. Moreover, Ethereum core devs have made EIP 4844 available on [Goerli](https://www.theblock.co/post/273050/ethereum-dencun-goerli-proto-danksharding).
+[EIP 4844](https://www.eip4844.com/), aka proto-dank-sharding, provides a new data type, Blob, on Ethereum. Blobs are persisted beacon nodes and are pruned after approximately two weeks. Hence, EIP 4844 may provide Fluence Functions developers with a convenient, verifiable and cheap "intermediate" data durability layer to Fluence Functions suitable for retaining small state, such as stream pagination, or subnet data synchronization. Moreover, Ethereum core devs have made EIP 4844 available on [Goerli](https://www.theblock.co/post/273050/ethereum-dencun-goerli-proto-danksharding) just in time!
 
 Teams should implement at least a read-write EIP 4844 Blob solution for their Fluence Functions and demonstrate both operations in separate Aqua workflows. However, the most important aspect of this task is to manage the "discovery" of the Blob by your Fluence Functions without, duh, storing a Blob reference on another storage solution. That is, your solution should be able to "index" your Blob(s) against, say, your account address and your Functions.
 
+Follow the submissions guides provided below.
 
 ## Submission Guidelines
 
@@ -75,8 +78,6 @@ Please note that teams not only are eligible but encouraged to submit solutions 
 ## Workshop
 
 An IRL workshop is scheduled for February 25, 2024, TBD at TDB. For updates, please subscribe to the [Fluence discord](https://fluence.chat/) channel.
-
-
 
 ## Resources
 

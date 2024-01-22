@@ -32,7 +32,11 @@ Like all serverless compute solutions, Fluence Functions is inherently stateless
 
 At the very minimum, your Fluence Functions should have a read and write capability to the chosen storage solution and use different Aqua workflow scripts to demonstrate the read and write operation. 
 
-### Buidl A ZK Circuit Backend for your dApp with Halo2 And Fluence Functions -- 1 x USDC 3,500, 1 x USDC 1,500
+### Spread Your Wings With Fluence, ZK or MPC  -- 1 x USDC 3,500, 1 x USDC 1,500
+
+Tackle either the MPC or ZKP track for fame and fortune!
+
+#### Buidl A ZK Circuit Backend for your dApp with Halo2 And Fluence Functions
 
 ZKPs are increasingly an integral aspect of Web3 solutions and allow provers to convince verifiers that their claim is true without revealing the inputs to the claim. ZKPs come in all shapes and sizes: interactive vs non-interactive, range proofs, etc.
 
@@ -40,20 +44,13 @@ A popular ZKP protocol is [halo2](https://github.com/zcash/halo2), which is a re
 
 This track tasks you to port the halo2 tooling to Fluence's [Marine Wasm runtime]() to enable backends for proof generation and proof verification. Since a general purpose solution is out of the questions, you are encouraged to constrain the circuit to some reasonable problem, such as proving [Hamming distances](https://en.wikipedia.org/wiki/Hamming_distance). Hamming distances are quite useful in error correction as well as a measurement of (dis-) similarity for biometrics, which can and is used in dApps and other Web3 (identity) protocols. To further keep you on the path of success, you are encouraged to extensively draw from and build on, giving credit where credit is due, the two part tutorial *Building a ZK web app with Halo2 and Wasm* listed below.
 
-#### References
+##### References
 
 * [Halo2 Book](https://zcash.github.io/halo2/user/simple-example.html)
 * [halo2-wasm](https://crates.io/crates/halo2-wasm)
 * [halo primer](https://medium.com/@ola_zkzkvm/halo-principle-explained-fa5a2e2767cd)
 * Building a ZK web app with Halo2 and Wasm [part 1](https://medium.com/@yujiangtham/lets-dissect-a-zksnark-part-1-a82fc092f58a) and [part 2](https://medium.com/@yujiangtham/building-a-zero-knowledge-web-app-with-halo-2-and-wasm-part-2-379477444dc3)
 
-
-### Bring MPC Threshold Signature Schemes To Fluence Functions -- 1 x USDC 3,500, 1 x USDC 1,500
-
-[MPC TSS](https://wiki.mpcalliance.org/threshold%20keygen%20and%20storage.html) is a cryptographic primitive for [distributed key generation](https://en.wikipedia.org/wiki/Distributed_key_generation) and message signing. Not surprisingly, MPC TSS has attracted a lot of interest from the blockchain and Web3 community at large. 
-
-In this build track, you are asked to implement or port an exiting MPC TSS library of your choosing to the Fluence Marine Wasm runtime and to illustrate distributed key generation, key refresh and message signing with Aqua workflows over your Fluence Functions wrapping your (ported) MPC TSS Wasm library. Your implementation should be two party or better and 
-the implemented or ported MPC TSS library needs to be corrected for these [exploits](https://www.verichains.io/tsshock/).
 
 ### Utilize EIP 4844 For Short-Term State Management -- 1 x USDC 3,500, 1 x USDC 1,500
 

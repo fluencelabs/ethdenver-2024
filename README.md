@@ -12,7 +12,7 @@ Eat the Cloud with Fluence, join us in the Buidlathon and the [Fluence DE:PIN Su
 
 ## Buidl With Fluence
 
-### Improve Your dAPP with fRPC -- ?? x USDC 1,000
+### Improve Your dAPP with fRPC -- 5 x USDC 1,000
 
 While RPC as a Service is a convenient and cost efficient option to bring EVM JSON-RPC to your dAPP, it introduces some crappy side-effects: single-point of failure, data integrity and privacy concerns come to mind.
 
@@ -20,19 +20,19 @@ Fluence has prepared a substrate to easily and cheaply enable decentralized RPC 
 
 Be one of the first ten (10) submitted solutions to integrate fRPC with your dAPP to cash in on a USDC 1,000 bounty. See submission guidelines below for more information.
 
-### Create And Deploy A Fluence Function -- ?? x USDC 1,000
+### Create And Deploy A Fluence Function -- 5 x USDC 1,000
 
 Fluence Functions is a decentralized, stateless compute services built on Wasm without developers having to provision or manage servers. Fluence Functions not only follow the serverless paradigm like AWS Lambda or Azure Functions but introduce decentralization a the compute as well as server level via DePin. In fact, Fluence capacity providers commit provable capacity from Tier 4 data centers.
 
 Create and deploy a Fluence Function of you choice to the Fluence testnet. Examine the function locally with Fluence's Marine REPL and run the function with Fluence's Aqua distributed workflow engine. Follow the submissions guidles provided below and add a screenshot of the REPL output for your function.
 
-### Integrate Your Fluence Functions With Decentralized Storage -- 1 x USDC 3,000, 1 X USDC 2,000, 1 X USDC 1,000
+### Integrate Your Fluence Functions With Decentralized Storage -- 1 x USDC 2,500, 1 X USDC 1,500, 1 X USDC 1,000
 
 Like all serverless compute solutions, Fluence Functions is inherently stateless, which means durable storage needs to be integrated into the solution stack. Instead of centralized storage solutions, this track rewards hackers to integrate [IPFS](https://www.ipfs.com/) or [Ceramic](https://ceramic.network/) as your a decentralized data layer to your decentralized compute with Fluence Functions.
 
 At the very minimum, your Fluence Functions should have a read and write capability to the chosen storage solution and use different Aqua workflow scripts to demonstrate the read and write operation. 
 
-### Buidl A ZK Circuit Backend for your dApp with Halo2 And Fluence Functions -- 1 x USDC 5,000
+### Buidl A ZK Circuit Backend for your dApp with Halo2 And Fluence Functions -- 1 x USDC 3,500, 1 x USDC 1,500
 
 ZKPs are increasingly an integral aspect of Web3 solutions and allow provers to convince verifiers that their claim is true without revealing the inputs to the claim. ZKPs come in all shapes and sizes: interactive vs non-interactive, range proofs, etc.
 
@@ -48,14 +48,14 @@ This track tasks you to port the halo2 tooling to Fluence's [Marine Wasm runtime
 * Building a ZK web app with Halo2 and Wasm [part 1](https://medium.com/@yujiangtham/lets-dissect-a-zksnark-part-1-a82fc092f58a) and [part 2](https://medium.com/@yujiangtham/building-a-zero-knowledge-web-app-with-halo-2-and-wasm-part-2-379477444dc3)
 
 
-### Bring MPC Threshold Signature Schemes To Fluence Functions -- 1 x USDC 5,000
+### Bring MPC Threshold Signature Schemes To Fluence Functions -- 1 x USDC 3,500, 1 x USDC 1,500
 
 [MPC TSS](https://wiki.mpcalliance.org/threshold%20keygen%20and%20storage.html) is a cryptographic primitive for [distributed key generation](https://en.wikipedia.org/wiki/Distributed_key_generation) and message signing. Not surprisingly, MPC TSS has attracted a lot of interest from the blockchain and Web3 community at large. 
 
 In this build track, you are asked to implement or port an exiting MPC TSS library of your choosing to the Fluence Marine Wasm runtime and to illustrate distributed key generation, key refresh and message signing with Aqua workflows over your Fluence Functions wrapping your (ported) MPC TSS Wasm library. Your implementation should be two party or better and 
 the implemented or ported MPC TSS library needs to be corrected for these [exploits](https://www.verichains.io/tsshock/).
 
-### Utilize EIP 4844 For Short-Term State Management -- 1 x USDC 5,000  ????
+### Utilize EIP 4844 For Short-Term State Management -- 1 x USDC 3,500, 1 x USDC 1,500
 
 [EIP 4844](https://www.eip4844.com/), aka proto-dank-sharding, provides a new data type, Blob, on Ethereum. Blobs are persisted beacon nodes and are pruned after approximately two weeks. Hence, EIP 4844 may provide Fluence Functions developers with a convenient, verifiable and cheap "intermediate" data durability layer to Fluence Functions suitable for retaining small state, such as stream pagination, or subnet data synchronization. Moreover, Ethereum core devs have made EIP 4844 available on [Goerli](https://www.theblock.co/post/273050/ethereum-dencun-goerli-proto-danksharding).
 

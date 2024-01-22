@@ -18,7 +18,7 @@ While RPC as a Service is a convenient and cost efficient option to bring EVM JS
 
 Fluence has prepared a substrate to easily and cheaply enable decentralized RPC from existing building blocks using Fluence Functions call [fRPC](https://github.com/fluencelabs/fRPC-Substrate). By adding multiple RPC endpoints of your choosing and self-hosting a tiny http gateway with your dApp, you simple need to add the gateways url to your dAPP and to enjoy decentralized RPC: no single point of failure, much improved data integrity and significantly improved privacy.
 
-Be one of the first ten (10) submitted solutions to integrate fRPC with your dAPP to cash in on a USDC 1,000 bounty. See submission guidelines below for more information.
+Be one of the first five (5) submitted solutions to integrate fRPC with your dAPP to cash in on a USDC 1,000 bounty. See submission guidelines below for more information.
 
 ### Create And Deploy A Fluence Function -- 5 x USDC 1,000
 

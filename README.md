@@ -24,7 +24,7 @@ Be one of the first five (5) submitted solutions to integrate fRPC with your dAP
 
 Fluence Functions is a decentralized, stateless compute service built on Wasm without developers having to provision or manage servers. Fluence Functions not only follow the serverless paradigm like AWS Lambda or Azure Functions but introduce decentralization a the compute as well as server level via DePin. In fact, Fluence capacity providers commit provable capacity from Tier 4 data centers.
 
-Create and deploy a Fluence Function of you choice to the Fluence testnet. Examine the function locally with Fluence's Marine REPL and run the function with Fluence's Aqua distributed workflow engine. Follow the submissions guides provided below and add a screenshot of the REPL output for your function.
+Create and deploy a Fluence Function of your choice to the Fluence testnet. Examine the function locally with Fluence's Marine REPL and run the function with Fluence's Aqua distributed workflow engine. Follow the submissions guides provided below and add a screenshot of the REPL output for your function.
 
 ### Integrate Your Fluence Functions With Decentralized Storage -- 1 x USDC 2,500, 1 X USDC 1,500, 1 X USDC 1,000
 

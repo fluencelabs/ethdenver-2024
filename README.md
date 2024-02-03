@@ -52,6 +52,14 @@ This track tasks you to port the halo2 tooling to Fluence's [Marine Wasm runtime
 * [halo primer](https://medium.com/@ola_zkzkvm/halo-principle-explained-fa5a2e2767cd)
 * Building a ZK web app with Halo2 and Wasm [part 1](https://medium.com/@yujiangtham/lets-dissect-a-zksnark-part-1-a82fc092f58a) and [part 2](https://medium.com/@yujiangtham/building-a-zero-knowledge-web-app-with-halo-2-and-wasm-part-2-379477444dc3)
 
+Follow the submissions guides provided below.
+
+#### Bring MPC Threshold Signature Schemes To Fluence Functions
+
+[MPC TSS](https://wiki.mpcalliance.org/threshold%20keygen%20and%20storage.html) is a cryptographic primitive for [distributed key generation](https://en.wikipedia.org/wiki/Distributed_key_generation) and message signing. Not surprisingly, MPC TSS has attracted a lot of interest from the blockchain and Web3 community at large. 
+
+In this build track, you are asked to implement or port an exiting MPC TSS library of your choosing to the Fluence Marine Wasm runtime and to illustrate distributed key generation, key refresh and message signing with Aqua workflows over your Fluence Functions wrapping your (ported) MPC TSS Wasm library. Your implementation should be two party or better and 
+the implemented or ported MPC TSS library needs to be corrected for these [exploits](https://www.verichains.io/tsshock/).
 
 Follow the submissions guides provided below.
 
@@ -59,9 +67,9 @@ Follow the submissions guides provided below.
 
 [EIP 4844](https://www.eip4844.com/), aka proto-dank-sharding, provides a new data type, Blob, on Ethereum. Blobs are persisted on beacon nodes and are pruned after approximately two weeks. Hence, EIP 4844 may provide Fluence Functions developers with a convenient, verifiable and cheap "intermediate" data durability layer suitable for retaining small state, such as stream pagination or subnet data synchronization. Moreover, Ethereum core devs have made EIP 4844 available on [Goerli](https://www.theblock.co/post/273050/ethereum-dencun-goerli-proto-danksharding) just in time!
 
-Teams should implement at least a read-write EIP 4844 Blob solution for their Fluence Functions and demonstrate both operations in separate Aqua workflows. However, the most important aspect of this task is to manage the "discovery" of the Blob by your Fluence Functions without, duh, storing a Blob reference on another storage solution. That is, your solution should be able to "index" your Blob(s) against, say, your account address and your Functions.
+Teams should implement a read-write EIP 4844 Blob solution for their Fluence Functions and demonstrate both operations in Aqua scripts. Moreover, an important aspect of this task is to manage the "discovery" of the Blob by your Fluence Functions.
 
-Follow the submissions guides provided below.
+Generously document the on-chain aspects of Blob creation and any resulting API(s). Follow the submissions guides provided below.
 
 ## Submission Guidelines
 

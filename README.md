@@ -1,36 +1,37 @@
 # Fluence ETHDenver 2024 Buidlathon Tracks And Bounties
 
-Welcome to the Year of the SporkWhale which undoubtedly will culminate in another epic Hackathon pushing the boundaries of decentralization to new heights. To this end, Fluence is sponsoring 
-five buidl tracks paying out a combined total of USDC 25,000!
+Welcome to the Year of the SporkWhale which undoubtedly will culminate in another epic Hackathon pushing the boundaries of decentralization to new heights. To this end, Fluence is sponsoring five buidl tracks paying out a combined total of USDC 25,000! Eat the Cloud with Fluence and join us for the '24 Buidlathon and the [Fluence DE:PIN Summit](), 02/27/2024 in mile-high Denver.
 
 ## About Fluence
 
-[Fluence](https://fluence.network/) is a decentralized serverless compute and DePin protocol. Buidling on Fluence, developers create Fluence Functions from Wasm and deploy their Fluence Functions to Tier 4 data centers providing provable, decentralized hardware resources. Fluence's on-chain marketplace built on [IPC](https://www.ipc.space/) facilitates the trustless matching of developers' capacity demand and providers' capacity supply one, or many, Fluence Functions at a time. That is, developers not only can work with decentralized compute but be assured that that compute is deployed on DePin instead of centrally controlled data centers. 
-
-Eat the Cloud with Fluence, join us in the Buidlathon and the [Fluence DE:PIN Summit](), 02/27/2024 in mile-high Denver.
+[Fluence](https://fluence.network/) is a decentralized serverless compute and infrastructure (DePin) platform. With Fluence, developers create Fluence Compute Functions and deploy them to Tier 4 data centers providing provable, decentralized CPU and RAM resources. Fluence's on-chain marketplace, built on [IPC](https://www.ipc.space/), facilitates the trustless matching of developers' capacity demand and providers' capacity supply for one, or many, Fluence Compute Functions at a time. That is, developers not only work with decentralized compute at the application or protocol level but also at the infrastructure level.
 
 
 ## Buidl With Fluence
 
+Fluence Functions is a decentralized, stateless compute service leveraging the Wasm-Wasi runtime without developers having to provision or manage servers. Fluence Functions not only follow the serverless paradigm but introduce decentralization at the compute as well as the server level. That is, Fluence Functions execute on decentralized physical infrastructure (DePin) enabling the decentralization of applications and protocols from the bottom up.
+
+### Create, Deploy And Execute A Fluence Compute Function -- 5 x USDC 1,000
+
+Create a Fluence Compute Function of your choice, deploy it to the Fluence testnet and orchestrate it with Fluence Workflow. Examine the function locally with the REPL provided by Fluence CLI and orchestrate the distributed function with an Aqua script. Use Fluence CLI to execute the Aqua script and capture the response.
+
+Be one of the first five (5) submitters of a functional and complete solution to be eligible for a bounty. Follow the submissions guides provided below **and** add a screenshot of the REPL output for your function and document the captured function response.
+
 ### Improve Your dAPP with fRPC -- 5 x USDC 1,000
 
-While RPC as a Service is a convenient and cost efficient option to bring EVM JSON-RPC to your dAPP, it introduces some crappy side-effects: single-point of failure, data integrity and privacy concerns come to mind.
+While RPC as a Service is a convenient and cost efficient option to bring EVM JSON-RPC to your dAPP, it introduces some side-effects: single-point of failure, data integrity and privacy concerns come to mind.
 
-Fluence has prepared a substrate to easily and cheaply enable decentralized RPC from existing building blocks using Fluence Functions call [fRPC](https://github.com/fluencelabs/fRPC-Substrate). By adding multiple RPC endpoints of your choosing and self-hosting a tiny http gateway with your dApp, you simple need to add the gateways url to your dAPP and to enjoy decentralized RPC: no single point of failure, much improved data integrity and significantly improved privacy.
+Fluence has prepared a substrate to easily and cheaply enable decentralized RPC for your dApp from existing building blocks using [fRPC](https://github.com/fluencelabs/fRPC-Substrate). By adding multiple RPC endpoints of your choosing, self-hosting a tiny http gateway with your dApp, deploying the provided compute function to the number of peers of your choosing and configuring the Aqua script to select the desired distributed availability or consensus algorithm, e.g. failover or quorum, you can enable you dApp with a performant decentralized RPC solution without having to touch the code of your dApp.
 
-Be one of the first five (5) submitted solutions to integrate fRPC with your dAPP to cash in on a USDC 1,000 bounty. See submission guidelines below for more information.
+You provide request logs for at least two different json-rpc method requests from your dApp illustrating the elimination of a single point of failure, much improved privacy and data integrity. Be one of the first five (5) submitted, functional solutions to integrate fRPC with your dAPP to cash in on a USDC 1,000 bounty. See submission guidelines below for more information and requirements.
 
-### Create And Deploy A Fluence Function -- 5 x USDC 1,000
+### Integrate Your Fluence Functions With Ceramic -- 1 x USDC 2,500, 1 X USDC 1,500, 1 X USDC 1,000
 
-Fluence Functions is a decentralized, stateless compute service built on Wasm without developers having to provision or manage servers. Fluence Functions not only follow the serverless paradigm like AWS Lambda or Azure Functions but introduce decentralization a the compute as well as server level via DePin. In fact, Fluence capacity providers commit provable capacity from Tier 4 data centers.
+Like all serverless compute solutions, Fluence Functions is inherently stateless, which means durable storage needs to be integrated into the solution stack. This track rewards hackers to integrate [Ceramic](https://ceramic.network/) as the decentralized data layer for your Fluence Functions.
 
-Create and deploy a Fluence Function of your choice to the Fluence testnet. Examine the function locally with Fluence's Marine REPL and run the function with Fluence's Aqua distributed workflow engine. Follow the submissions guides provided below and add a screenshot of the REPL output for your function.
+Your Fluence Functions need to have a read and write capability to Ceramic Streams or Compose DB and choreograph your Fluence Compute Functions with Aqua scripts to demonstrate the read and write operation. Bonus points for deploying your function to more than one provider in the Fluence testnet and to code your Aqua script to take advantage of this deployment. For example, write from the function on one peer and read from the function from the other peer.
 
-### Integrate Your Fluence Functions With Decentralized Storage -- 1 x USDC 2,500, 1 X USDC 1,500, 1 X USDC 1,000
-
-Like all serverless compute solutions, Fluence Functions is inherently stateless, which means durable storage needs to be integrated into the solution stack. Instead of centralized storage solutions, this track rewards hackers to integrate [Ceramic](https://ceramic.network/) as your a decentralized data layer to your decentralized compute with Fluence Functions.
-
-At the very minimum, your Fluence Functions should have a read and write capability to the chosen storage solution and use different Aqua workflow scripts to demonstrate the read and write operation. 
+ Follow the submissions guides provided below.
 
 ### Spread Your Wings With Fluence Functions, ZK or MPC  -- 1 x USDC 3,500, 1 x USDC 1,500
 
@@ -54,9 +55,9 @@ This track tasks you to port the halo2 tooling to Fluence's [Marine Wasm runtime
 
 Follow the submissions guides provided below.
 
-### Utilize EIP 4844 For Short-Term State Management -- 1 x USDC 3,500, 1 x USDC 1,500
+### Utilize EIP 4844 For Short-Term State Management -- 1 x USDC 2,500, 1 x USDC 1,500, 1 x USDC 1,000
 
-[EIP 4844](https://www.eip4844.com/), aka proto-dank-sharding, provides a new data type, Blob, on Ethereum. Blobs are persisted beacon nodes and are pruned after approximately two weeks. Hence, EIP 4844 may provide Fluence Functions developers with a convenient, verifiable and cheap "intermediate" data durability layer to Fluence Functions suitable for retaining small state, such as stream pagination, or subnet data synchronization. Moreover, Ethereum core devs have made EIP 4844 available on [Goerli](https://www.theblock.co/post/273050/ethereum-dencun-goerli-proto-danksharding) just in time!
+[EIP 4844](https://www.eip4844.com/), aka proto-dank-sharding, provides a new data type, Blob, on Ethereum. Blobs are persisted on beacon nodes and are pruned after approximately two weeks. Hence, EIP 4844 may provide Fluence Functions developers with a convenient, verifiable and cheap "intermediate" data durability layer suitable for retaining small state, such as stream pagination or subnet data synchronization. Moreover, Ethereum core devs have made EIP 4844 available on [Goerli](https://www.theblock.co/post/273050/ethereum-dencun-goerli-proto-danksharding) just in time!
 
 Teams should implement at least a read-write EIP 4844 Blob solution for their Fluence Functions and demonstrate both operations in separate Aqua workflows. However, the most important aspect of this task is to manage the "discovery" of the Blob by your Fluence Functions without, duh, storing a Blob reference on another storage solution. That is, your solution should be able to "index" your Blob(s) against, say, your account address and your Functions.
 
@@ -64,14 +65,16 @@ Follow the submissions guides provided below.
 
 ## Submission Guidelines
 
-In addition to the [ETHDenver Rules & Regulations](), eligible teams need to fork this repo and add their solution. Keep this repo **private** until the end of the Buidlathon. When the number of valid, eligible and equally accomplished submissions exceeds the number of prizes, as determined by the Judges, the timestamp of the last change of the submitted repo will serve as the tie-breaker.
+In addition to the [ETHDenver Rules & Regulations](), teams need to fork [this](https://github.com/fluencelabs/ethdenver-2024) repo and add their submission. Keep this repo **private** until the end of the Buidlathon. 
+
+When the number of valid, eligible and equally accomplished submissions exceeds the number of prizes, as determined by the Judge(s), the timestamp of the last change of the submitted repo will serve as the tie-breaker.
 
 An eligible submission requires teams to 
 
 * generously document their solution with one or more readme files and, when applicable, code documentation
-* provide a dockerized demo of your solution
-* submit a two (2) to five (5) minute (linked) Youtube, or similar, hosted video shilling you masterpiece
-* Submit via a Github or GitLab repo with MIT or Apache 2.0 license
+* commit the complete project scaffold to your forked repo including the .fluence directory
+* submit a two (2) to five (5) minute (linked) Youtube, or similar, hosted video shilling your masterpiece
+* submit as a Github or GitLab repo with MIT or Apache 2.0 license
 
 Please note that teams not only are eligible but encouraged to submit solutions for more than one track!
 

@@ -4,16 +4,16 @@ Welcome to the Year of the SporkWhale which undoubtedly will culminate in anothe
 
 ## About Fluence
 
-[Fluence](https://fluence.network/) is a decentralized serverless compute and infrastructure (DePin) platform. With Fluence, developers create Fluence Compute Functions and deploy them to Tier 4 data centers providing provable, decentralized CPU and RAM resources. Fluence's on-chain marketplace, built on [IPC](https://www.ipc.space/), facilitates the trustless matching of developers' capacity demand and providers' capacity supply for one, or many, Fluence Compute Functions at a time. That is, developers not only work with decentralized compute at the application or protocol level but also at the infrastructure level.
+[Fluence](https://fluence.network/) is a decentralized serverless compute and infrastructure (DePin) platform. With Fluence, developers create compute functions and deploy them to Tier 4 data centers providing provable, decentralized CPU and RAM resources. The Fluence on-chain marketplace, built on [IPC](https://www.ipc.space/), facilitates the trustless matching of developers' capacity demand and providers' capacity supply for one, or many, Fluence Compute Functions at a time. That is, developers not only work with decentralized compute at the application or protocol level but also at the infrastructure level.
 
 
 ## Buidl With Fluence
 
-Fluence Functions is a decentralized, stateless compute service leveraging the Wasm-Wasi runtime without developers having to provision or manage servers. Fluence Functions not only follow the serverless paradigm but introduce decentralization at the compute as well as the server level. That is, Fluence Functions execute on decentralized physical infrastructure (DePin) enabling the decentralization of applications and protocols from the bottom up.
+Fluence Function is a decentralized, stateless compute service leveraging the Wasm-Wasi runtime without developers having to provision or manage servers. Fluence Function not only follow the serverless paradigm but introduce decentralization at the compute as well as the server level. That is, Fluence Function execute on decentralized physical infrastructure (DePin) enabling the decentralization of applications and protocols from the bottom up.
 
 ### Create, Deploy And Execute A Fluence Compute Function -- 5 x USDC 1,000
 
-Create a Fluence Compute Function of your choice, deploy it to the Fluence testnet and orchestrate it with Fluence Workflow. Examine the function locally with the REPL provided by Fluence CLI and orchestrate the distributed function with an Aqua script. Use Fluence CLI to execute the Aqua script and capture the response.
+Create a Fluence Function of your choice, deploy it to the Fluence testnet. Examine the function locally with the REPL provided by Fluence CLI and implement an Aqua script to orchestrate your deployed function. Use Fluence CLI to execute the Aqua script and capture the response.
 
 Be one of the first five (5) submitters of a functional and complete solution to be eligible for a bounty. Follow the submissions guides provided below **and** add a screenshot of the REPL output for your function and document the captured function response.
 
@@ -25,19 +25,19 @@ Fluence has prepared a substrate to easily and cheaply enable decentralized RPC 
 
 You provide request logs for at least two different json-rpc method requests from your dApp illustrating the elimination of a single point of failure, much improved privacy and data integrity. Be one of the first five (5) submitted, functional solutions to integrate fRPC with your dAPP to cash in on a USDC 1,000 bounty. See submission guidelines below for more information and requirements.
 
-### Integrate Your Fluence Functions With Ceramic -- 1 x USDC 2,500, 1 X USDC 1,500, 1 X USDC 1,000
+### Integrate Your Fluence Function With Ceramic -- 1 x USDC 2,500, 1 X USDC 1,500, 1 X USDC 1,000
 
-Like all serverless compute solutions, Fluence Functions is inherently stateless, which means durable storage needs to be integrated into the solution stack. This track rewards hackers to integrate [Ceramic](https://ceramic.network/) as the decentralized data layer for your Fluence Functions.
+Like all serverless compute solutions, Fluence Function is inherently stateless, which means durable storage needs to be integrated into the solution stack. This track rewards hackers to integrate [Ceramic](https://ceramic.network/) as the decentralized data layer for your Fluence Function.
 
-Your Fluence Functions need to have a read and write capability to Ceramic Streams or Compose DB and choreograph your Fluence Compute Functions with Aqua scripts to demonstrate the read and write operation. Bonus points for deploying your function to more than one provider in the Fluence testnet and to code your Aqua script to take advantage of this deployment. For example, write from the function on one peer and read from the function from the other peer.
+Your Fluence Function need to have a read and write capability to Ceramic Streams or Compose DB and choreograph your Fluence Compute Function with Aqua scripts to demonstrate the read and write operation. Bonus points for deploying your function to more than one provider in the Fluence testnet and to code your Aqua script to take advantage of this deployment. For example, write from the function on one peer and read from the function from the other peer.
 
  Follow the submissions guides provided below.
 
-### Spread Your Wings With Fluence Functions, ZK or MPC  -- 1 x USDC 3,500, 1 x USDC 1,500
+### Spread Your Wings With Fluence Function, ZK or MPC  -- 1 x USDC 3,500, 1 x USDC 1,500
 
 Tackle either the MPC or ZKP track for fame and fortune!
 
-#### Buidl A ZK Circuit Backend for your dApp with Halo2 And Fluence Functions
+#### Buidl A ZK Circuit Backend for your dApp with Halo2 And Fluence Function
 
 ZKPs are increasingly an integral aspect of Web3 solutions and allow provers to convince verifiers that their claim is true without revealing the inputs to the claim. ZKPs come in all shapes and sizes: interactive vs non-interactive, range proofs, etc.
 
@@ -54,11 +54,11 @@ This track tasks you to port the halo2 tooling to Fluence's [Marine Wasm runtime
 
 Follow the submissions guides provided below.
 
-#### Bring MPC Threshold Signature Schemes To Fluence Functions
+#### Bring MPC Threshold Signature Schemes To Fluence Function
 
 [MPC TSS](https://wiki.mpcalliance.org/threshold%20keygen%20and%20storage.html) is a cryptographic primitive for [distributed key generation](https://en.wikipedia.org/wiki/Distributed_key_generation) and message signing. Not surprisingly, MPC TSS has attracted a lot of interest from the blockchain and Web3 community at large. 
 
-In this build track, you are asked to implement or port an exiting MPC TSS library of your choosing to the Fluence Marine Wasm runtime and to illustrate distributed key generation, key refresh and message signing with Aqua workflows over your Fluence Functions wrapping your (ported) MPC TSS Wasm library. Your implementation should be two party or better and 
+In this build track, you are asked to implement or port an exiting MPC TSS library of your choosing to the Fluence Marine Wasm runtime and to illustrate distributed key generation, key refresh and message signing with Aqua workflows over your Fluence Function wrapping your (ported) MPC TSS Wasm library. Your implementation should be two party or better and 
 the implemented or ported MPC TSS library needs to be corrected for these [exploits](https://www.verichains.io/tsshock/).
 
 Follow the submissions guides provided below.

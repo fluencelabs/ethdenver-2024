@@ -4,7 +4,7 @@ Welcome to the Year of the SporkWhale which undoubtedly will culminate in anothe
 
 ## About Fluence
 
-[Fluence](https://fluence.network/) is a decentralized serverless compute and infrastructure (DePin) platform. With Fluence, developers create compute functions and deploy them to Tier 4 data centers providing provable, decentralized CPU and RAM resources. The Fluence on-chain marketplace, built on [IPC](https://www.ipc.space/), facilitates the trustless matching of developers' capacity demand and providers' capacity supply for one, or many, Fluence Compute Functions at a time. That is, developers not only work with decentralized compute at the application or protocol level but also at the infrastructure level.
+[Fluence](https://fluence.network/) is a decentralized serverless compute and infrastructure (DePin) platform. With Fluence, developers create compute functions and deploy them to Tier 4 data centers providing provable, decentralized CPU and RAM resources. The Fluence on-chain compute marketplace, built on [IPC](https://www.ipc.space/), facilitates the trustless matching of developers' capacity demand and providers' capacity supply for one, or many, Fluence Compute Functions at a time. That is, developers not only work with decentralized compute at the application or protocol level but also at the infrastructure level.
 
 
 ## Buidl With Fluence
